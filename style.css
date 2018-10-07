@@ -85,7 +85,7 @@ body#hmpg, #concerts{
     top: 20%;
     margin: 0;
     font-family: 'K2D', sans-serif;
-
+    z-index: -1;
 }
 
 .box2 {
@@ -98,6 +98,7 @@ body#hmpg, #concerts{
     right: 8%;
     top: 12%;
     font-family: 'Great Vibes', cursive;
+    z-index: -1;
 }
 
 .box3 {
