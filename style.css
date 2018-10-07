@@ -1,0 +1,684 @@
+
+body#hmpg, #concerts{
+    background-image: url("./imgs/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 50% 15%;
+
+ }
+
+#concerts{
+    background-image: url('./imgs/concertsbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 50% 15%;
+}
+#composition{
+    background-image:linear-gradient(
+        rgba(245, 184, 232, 0.45), 
+        rgba(245, 184, 232, 0.45)
+      ), url('./imgs/composition.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 50% 15%;
+}
+#gallery{
+    background-image: linear-gradient(
+        rgba(182, 212, 245, 0.45),
+        rgba(182, 212, 245, 0.45)
+      ),url('./imgs/gallerybg.jpg');
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 50% 15%;
+    background-attachment: fixed;
+}
+
+
+
+.compositionbox{
+    background: rgba(0, 0, 0, 0.616);
+    width: 80%;
+    margin: auto;
+}
+ body{
+    background-color: #000;
+ }
+ @media screen and (max-width: 1200px) {
+    body#hmpg, #concerts{
+        background-size: 150%;
+        background-position: 50% 10%;
+    }
+}
+ @media screen and (max-width: 1000px) {
+    body#hmpg, #concerts{
+        background-size: 150%;
+        background-position: 50% 5%;
+    }
+}
+@media screen and (max-width: 800px) {
+    body#hmpg, #concerts{
+        background-size: 200%;
+        background-position: 50% 12%;
+    }
+}
+@media screen and (max-width: 700px) {
+    body#hmpg, #concerts{
+        background-size: 200%;
+        background-position: 50% -5%;
+    }
+}
+@media screen and (max-width: 500px) {
+    body#hmpg, #concerts{
+        background-size: 250%;
+        background-position: 40% -15%;
+    }
+}
+
+.box1{
+    font-size: 50px;
+    width: 290px;
+    color: palevioletred;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    margin: 0;
+    font-family: 'K2D', sans-serif;
+
+}
+
+.box2 {
+    font-size: 135px;
+    width: 450px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    right: 8%;
+    top: 12%;
+    font-family: 'Great Vibes', cursive;
+}
+
+.box3 {
+    font-size: 50px;
+    width: 25vw;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    top: 46%;
+    font-family: 'Great Vibes', cursive;
+}
+
+@media screen and (max-width: 1200px) {
+    .box1{
+        left: 5%;
+        top: 12%;
+    }
+    .box2{
+        width: 400px;
+    }
+}
+ @media screen and (max-width: 1000px) {
+    .box1{
+         font-size: 40px;
+         width: 200px;
+     }
+    .box2{
+        font-size: 100px;
+        right: 0%;
+        width: 400px;
+    }
+    .box3{
+        font-size: 35px;
+        top: 35%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .box1{
+        font-size: 30px;
+         width: 150px;
+    }
+    .box2{
+        font-size: 90px;
+        width: 300px;
+        right: 6%;
+    }
+    .box3{
+       
+    }
+}
+@media screen and (max-width: 700px) {
+    .box1{
+        top: 17%;   
+    }
+    .box2{
+        font-size: 80px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .box1 {
+        font-size: 22px;
+        width: 117px;
+        top: 30%;
+    }
+
+    .box2 {
+        font-size: 67px;
+        width: 201px;
+        top: 21%;
+    }
+    .box3 {
+        width: 100px;
+        font-size: 21px;
+        top: 38%;
+    }
+}
+.compopara{
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.footerspace{
+    height: 50px;
+}
+.contentbox{
+    padding: 3%;
+}
+
+.compoclick{
+    font-family: 'Alegreya', serif;
+    line-height: 85px;
+    font-size: 30px;
+}
+.mps{
+    color: rgb(241, 200, 111);    
+    font-family: 'Amatic SC', cursive;
+}
+
+.pgtitle {
+    font-size: 55px;
+    color: pink;
+    display: block;
+    font-family: 'Great Vibes', cursive;
+}
+.sampletitle{
+    font-size: 55px;
+    color: rgb(241, 200, 111);
+    display: block;
+    font-family: 'Great Vibes', cursive;
+}
+.compotitle{
+    padding-top: 80px;
+    padding-left: 70px;
+    font-size: 55px;
+    color: white;
+    display: block;
+    font-family: 'Great Vibes', cursive;
+    width: 500px;
+}
+.compospace{
+    padding-bottom: 30px;
+}
+.concertscoming{
+    font-size: 30px;
+    color: pink;
+    font-family: 'Great Vibes', cursive;
+    
+}
+#contactsec{
+    padding-top: 15px;
+}
+#aboutpic {
+    background-image: url('./imgs/aboutimg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20vw;
+    width: 45%;
+    float: right;
+}
+#contactpic{
+    background-image: url('./imgs/contactpic.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 207px;
+    height: 264px;
+    display: inline-block;
+}
+.galleryitem{
+    background-image: url('./imgs/compospic.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+}
+.g1{
+    background-image: url('./imgs/gallery/1.jpg');
+}
+.g2{
+    background-image: url('./imgs/gallery/2.jpg');
+    height: 300px;
+    width: 170px;
+}
+.g3{
+    background-image: url('./imgs/gallery/3.jpg');
+}
+.g4{
+    background-image: url('./imgs/gallery/4.jpg');
+}
+.g5{
+    background-image: url('./imgs/gallery/5.jpg');
+    width: 148px;
+    height: 300px;
+}
+.g6{
+    background-image: url('./imgs/gallery/6.jpg');
+    width: 216px;
+    height: 266px;
+}
+.g7{
+    background-image: url('./imgs/gallery/7.jpg');
+    width: 444px;
+    height: 240px;
+}
+.g8{
+    background-image: url('./imgs/gallery/8.jpg');
+    width: 344px;
+    height: 255px;
+}
+.g9{
+    background-image: url('./imgs/gallery/9.jpg');
+    width: 228px;
+    height: 209px;
+}
+.g10{
+    background-image: url('./imgs/gallery/10.jpg');
+    width: 333px;
+    height: 412px;
+}
+.g11{
+    background-image: url('./imgs/gallery/11.jpg');
+    width: 223px;
+    height: 292px;
+}
+.g12{
+    background-image: url('./imgs/gallery/12.jpg');
+    width: 338px;
+    height: 387px;
+}
+.g13{
+    background-image: url('./imgs/gallery/13.jpg');
+    width: 418px;
+    height: 260px;
+}
+.g14{
+    background-image: url('./imgs/gallery/14.jpg');
+    width: 507px;
+    height: 392px;
+}
+.g15{
+    background-image: url('./imgs/gallery/15.jpg');
+    width: 377px;
+    height: 277px;
+}
+#melissa1 {
+    background-image: url('./imgs/compospic.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 200px;
+    height: 240px;
+    width: 500px;
+    margin: auto;
+}
+#melissa2 {
+    background-image: url('./imgs/compospic2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+
+#aboutpara {
+    font-size: 26px;
+    color: wheat;
+    width: 50%;
+}
+@media screen and (max-width: 1000px) {
+   #aboutpic{
+    width: 100%;
+    height: 400px;
+    }
+    #aboutpara {
+        font-size: 26px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #aboutpic{
+     width: 100%;
+     height: 300px;
+     }
+     #aboutpara {
+         font-size: 26px;
+         width: 100%;
+     }
+ }
+
+ @media screen and (max-width: 500px) {
+    #aboutpic{
+     width: 100%;
+     height: 250px;
+     }
+     #aboutpara {
+         font-size: 20px;
+         width: 100%;
+     }
+ }
+
+ @media screen and (max-width: 400px) {
+    #aboutpic{
+     width: 100%;
+     height: 200px;
+     }
+     #aboutpara {
+         font-size: 16px;
+         width: 100%;
+     }
+ }
+:link { color: rgb(250, 132, 36); }
+:visited { color: rgb(179, 156, 31); }
+
+#contactform, #contacttxt, #contacts, #impressum{
+    display: inline-block;
+}
+#contacttxt,#contacts{
+    width: 33%;
+}
+#contactform{
+    max-width: 400px;
+    text-align: right;
+}
+#impressum{
+    max-width: 400px;
+}
+#contactpara{
+    width: 80%;
+    text-align: center;
+}
+.top, .middle, .bottom{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;   
+}
+#ctsub, #ctem, #ctmsg{
+    width: 100%;
+}
+
+ol { padding: 0px; margin: 0px; list-style: decimal-leading-zero inside; color: #ccc; width: 100%; border-top: 1px solid #ccc; font-size: 0.9em; }
+ol li { position: relative; margin: 0px; padding: 9px 2px 10px; border-bottom: 1px solid #ccc; cursor: pointer; }
+ol li a { display: block; text-indent: -3.3ex; padding: 0px 0px 0px 20px; }
+li.playing { color: #aaa; text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3); }
+li.playing a { color: #000; }
+li.playing:before { content: '->'; width: 14px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: -24px; top: 9px; color: #000; font-size: 13px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); }
+
+#shortcuts { position: fixed; bottom: 0px; width: 100%; color: #666; font-size: 0.9em; margin: 60px 0px 0px; padding: 20px 20px 15px; background: #f3f3f3; background: rgba(240, 240, 240, 0.7); }
+#shortcuts div { width: 460px; margin: 0px auto; }
+#shortcuts h1 { margin: 0px 0px 6px; }
+#shortcuts p { margin: 0px 0px 18px; }
+#shortcuts em { font-style: normal; background: #d3d3d3; padding: 3px 9px; position: relative; left: -3px;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); -o-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); }
+
+@media screen and (max-device-width: 480px) {
+    #wrapper { position: relative; left: -3%; }
+    #shortcuts { display: none; }
+}
+@media screen and (max-width: 1350px) {
+    .audiojs .scrubber {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .audiojs .scrubber {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .audiojs .scrubber {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .audiojs .scrubber {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .audiojs .scrubber {
+        width: 35%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .audiojs .scrubber {
+        width: 25%;
+    }
+}
+.credit {
+    text-align: center;
+}
+#albumcover{
+    background-image: url('./imgs/Albumcover.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+
+}
+#blueoceancover{
+    background-image: url('./imgs/blueocean.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+.playlength{
+    float:right;
+}
+.blueocean{
+    display: inline-block;
+}
+.blueoceant{
+    color: rgb(30, 143, 196);
+    font-size: 20px;
+}
+.videodisplay{
+    text-align: center;
+}
+.videospreview{
+    display: inline-block;
+    width: 400px;
+}
+.videodisplayside{
+    width: 550px;
+    text-align: center;
+    display: inline-block;
+}
+.composide{
+    width: 450px;
+    text-align: center;
+    display: inline-block;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+p, h2{
+    color: white;
+}
+.blueoceanpara{
+    color: rgb(30, 143, 196);
+    font-family: 'Dancing Script', cursive;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: 'Great Vibes', cursive;
+}
+.inverticon{
+    -webkit-filter: invert(1);
+   filter: invert(1);
+}
+.footericon{
+    padding-left: 20px;
+}
+.cprt{
+    padding-left: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -10px;;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    font-size: 25px;
+    width: 20%;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #222;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+    width: 20%;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+    font-size: 25px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 0px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    width: 20%;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 0px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .dropdown, .topnav a, .dropdown-content {
+      width: 100%;
+  }
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    left: -20px;
+    -moz-transform: translateX(-40%);
+    -ms-transform: translateX(-40%);
+    -webkit-transform: translateX(-40%);
+    -o-transform: translateX(-40%);
+    transform: translateX(40%);
+    width: 50px;
+  }
+  .topnav{
+      position: relative;
+  }
+  
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    left: -20px;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
