@@ -181,6 +181,7 @@ body#hmpg, #concerts{
     font-family: 'Alegreya', serif;
     font-style: italic;
     font-size: 30px;
+    width: 80%;
 }
 
 .footerspace{
@@ -226,7 +227,7 @@ body#hmpg, #concerts{
     color: white;
     display: block;
     font-family: 'Great Vibes', cursive;
-    width: 500px;
+    /* width: 500px; */
 }
 .compospace{
     padding-bottom: 30px;
@@ -338,9 +339,9 @@ body#hmpg, #concerts{
     background-image: url('./imgs/compospic.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: 200px;
+    background-position-x: 50px;
     height: 240px;
-    width: 500px;
+    /* width: 500px; */
     margin: auto;
 }
 #melissa2 {
@@ -348,7 +349,8 @@ body#hmpg, #concerts{
     background-repeat: no-repeat;
     background-size: contain;
     height: 300px;
-    width: 500px;
+    background-position-x: 50px;
+    /* width: 500px; */
     margin: auto;
 }
 
@@ -496,7 +498,7 @@ li.playing:before { content: '->'; width: 14px; height: 14px; padding: 3px; line
     background-repeat: no-repeat;
     height: 350px;
     width: 350px;
-    display: inline-block;
+    display: block;
 }
 .playlength{
     float:right;
@@ -516,14 +518,20 @@ li.playing:before { content: '->'; width: 14px; height: 14px; padding: 3px; line
     width: 400px;
 }
 .videodisplayside{
-    width: 450px;
+    min-width: 400px;
     text-align: center;
     display: inline-block;
 }
 .composide{
-    width: 450px;
+    width: 400px;
     text-align: center;
     display: inline-block;
+}
+.composide2{
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -50px;
 }
 .footer {
     position: fixed;
