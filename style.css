@@ -110,6 +110,7 @@ body#hmpg, #concerts{
     right: 15%;
     top: 46%;
     font-family: 'Great Vibes', cursive;
+    z-index: -1;
 }
 
 @media screen and (max-width: 1200px) {
