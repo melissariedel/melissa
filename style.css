@@ -238,10 +238,10 @@ body#hmpg, #concerts{
     padding-bottom: 30px;
 }
 .concertscoming{
-    font-size: 30px;
+    font-size: 35px;
     color: pink;
     font-family: 'Great Vibes', cursive;
-    
+    text-align: center;
 }
 #contactsec{
     padding-top: 15px;
