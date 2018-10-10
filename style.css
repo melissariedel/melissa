@@ -14,6 +14,7 @@ body#hmpg, #concerts{
     background-position: 50% 15%;
 }
 #composition{
+    text-align: center;
     background-image:linear-gradient(
         rgba(245, 184, 232, 0.45), 
         rgba(245, 184, 232, 0.45)
@@ -32,6 +33,7 @@ body#hmpg, #concerts{
     background-size: 110%;
     background-position: 50% 15%;
     background-attachment: fixed;
+    text-align: center;
 }
 
 
@@ -209,6 +211,7 @@ body#hmpg, #concerts{
     color: pink;
     display: block;
     font-family: 'Great Vibes', cursive;
+    margin: 15px;
 }
 .contacttitle{
     font-size: 55px;
@@ -250,6 +253,7 @@ body#hmpg, #concerts{
     height: 20vw;
     width: 45%;
     float: right;
+    padding-bottom: 10px;
 }
 #contactpic{
     background-image: url('./imgs/contactpic.jpg');
@@ -343,17 +347,17 @@ body#hmpg, #concerts{
     background-size: contain;
     background-position-x: 50px;
     height: 240px;
-    /* width: 500px; */
     margin: auto;
+    margin-bottom: 20px;
 }
 #melissa2 {
     background-image: url('./imgs/compospic2.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
     background-position-x: 50px;
-    /* width: 500px; */
+    height: 300px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 #aboutpara {
@@ -368,7 +372,8 @@ body#hmpg, #concerts{
     }
     #aboutpara {
         font-size: 26px;
-        width: 100%;
+        width: 95%;
+        margin: auto;
     }
 }
 
@@ -379,7 +384,8 @@ body#hmpg, #concerts{
      }
      #aboutpara {
          font-size: 26px;
-         width: 100%;
+         width: 95%;
+         margin: auto;
      }
  }
 
@@ -390,7 +396,8 @@ body#hmpg, #concerts{
      }
      #aboutpara {
          font-size: 20px;
-         width: 100%;
+         width: 95%;
+         margin: auto;
      }
  }
 
@@ -401,7 +408,8 @@ body#hmpg, #concerts{
      }
      #aboutpara {
          font-size: 16px;
-         width: 100%;
+         width: 95%;
+         margin: auto;
      }
  }
 :link { color: rgb(250, 132, 36); }
@@ -521,7 +529,7 @@ li.playing:before { content: '->'; width: 14px; height: 14px; padding: 3px; line
     width: 400px;
 }
 .videodisplayside{
-    min-width: 400px;
+    /* min-width: 400px; */
     text-align: center;
     display: inline-block;
 }
@@ -529,12 +537,6 @@ li.playing:before { content: '->'; width: 14px; height: 14px; padding: 3px; line
     width: 400px;
     text-align: center;
     display: inline-block;
-}
-.composide2{
-    width: 400px;
-    text-align: center;
-    display: inline-block;
-    /* margin-left: -50px; */
 }
 .footer {
     position: fixed;
@@ -718,12 +720,14 @@ p, h2{
     #getititunes{
         display:block;
         margin:auto;
+        padding: 15px;
     }
     #avaamazon{
         margin:auto;
     }
     .contentbox{
         padding: 0;
+        padding-bottom: 100px;
     }
     body{
         margin: 0;
@@ -747,10 +751,13 @@ p, h2{
         line-height: 80px;
         font-size: 25px;
     }
-    .composide2{
+    .composide{
         width: 100%;
     }
-    .composide2{
+
+    .videospreview {
+        display: block;
         width: 100%;
     }
+    
 }
