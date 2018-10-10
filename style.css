@@ -38,7 +38,7 @@ body#hmpg, #concerts{
 
 .compositionbox{
     background: rgba(0, 0, 0, 0.616);
-    width: 80%;
+    width: 95%;
     margin: auto;
     padding-bottom: 100px;
 }
@@ -182,6 +182,8 @@ body#hmpg, #concerts{
     font-style: italic;
     font-size: 30px;
     width: 80%;
+    padding-bottom: 25px;
+    margin: auto;
 }
 
 .footerspace{
@@ -222,7 +224,7 @@ body#hmpg, #concerts{
 }
 .compotitle{
     padding-top: 80px;
-    padding-left: 70px;
+    text-align: center;
     font-size: 55px;
     color: white;
     display: block;
@@ -489,13 +491,14 @@ li.playing:before { content: '->'; width: 14px; height: 14px; padding: 3px; line
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;
-    display: inline-block;
-
+    display: block;
+    margin: auto;
 }
 #blueoceancover{
     background-image: url('./imgs/blueocean.jpg');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position-x: 50%;
     height: 350px;
     width: 350px;
     display: block;
@@ -531,7 +534,7 @@ li.playing:before { content: '->'; width: 14px; height: 14px; padding: 3px; line
     width: 400px;
     text-align: center;
     display: inline-block;
-    margin-left: -50px;
+    /* margin-left: -50px; */
 }
 .footer {
     position: fixed;
@@ -697,4 +700,57 @@ p, h2{
     width: 100%;
     text-align: center;
   }
+}
+.center{
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .blueoceant, .blueoceanpara{
+        width: 80%;
+        margin: auto;
+        padding: 20px 0px;
+    }
+    #blueoceancover{
+        height: 325px;
+        margin: auto;
+    }
+    #getititunes{
+        display:block;
+        margin:auto;
+    }
+    #avaamazon{
+        margin:auto;
+    }
+    .contentbox{
+        padding: 0;
+    }
+    body{
+        margin: 0;
+    }
+    .sampletitle{
+        margin: 15px;
+    }
+    h2.mps {
+        margin-left: 15px;
+    }
+    .audiojs{
+        width: 95%;
+        margin: auto;
+    }
+    .mp3playbar{
+        width: 95%;
+        margin: auto;
+    }
+    .compoclick {
+        font-family: 'Alegreya', serif;
+        line-height: 80px;
+        font-size: 25px;
+    }
+    .composide2{
+        width: 100%;
+    }
+    .composide2{
+        width: 100%;
+    }
 }
