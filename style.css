@@ -8,7 +8,10 @@ body#hmpg, #concerts{
  }
 
 #concerts{
-    background-image: url('./imgs/concertsbg.jpg');
+    background-image: linear-gradient(
+        rgba(70, 43, 64, 0.45), 
+        rgba(70, 43, 64, 0.45)
+      ),url('./imgs/concertsbg.jpg');
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: 50% 15%;
